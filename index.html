@@ -4,6 +4,15 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Test Blog - The First Drop</title>
+
+        <!-- favicon -->
+        <link rel="icon" href="./favicon.ico?v=2" type="image/x-icon" />
+        <link
+            rel="shortcut icon"
+            href="./favicon.ico?v=2"
+            type="image/x-icon"
+        />
+
         <meta
             name="description"
             content="A test blog page for AstraRoute site blog listing. Clean layout, readable typography, and a simple structure you can reuse."
@@ -45,11 +54,11 @@
                 <article class="article">
                     <figure class="hero">
                         <img
-                            src="./main_image.png"
+                            src="./main_image.webp"
                             alt="Hero image for the blog"
                         />
                         <figcaption>
-                            main_image.png is used by the blog listing cards.
+                            main_image.webp is used by the blog listing cards.
                         </figcaption>
                     </figure>
 
@@ -60,7 +69,7 @@
                             GitHub repo and publish with GitHub Pages. Your app
                             will detect the repo using topic
                             <span class="chip">siteblog</span>, show the card
-                            with <span class="chip">main_image.png</span>, and
+                            with <span class="chip">main_image.webp</span>, and
                             open this page inside a modal iframe.
                         </p>
                     </section>
@@ -90,7 +99,7 @@
                                 Add topic: <span class="chip">siteblog</span>
                             </li>
                             <li>
-                                Put <span class="chip">main_image.png</span> in
+                                Put <span class="chip">main_image.webp</span> in
                                 repo root
                             </li>
                             <li>Enable GitHub Pages (deploy from branch)</li>
@@ -110,6 +119,84 @@
                         <div class="footerNote">
                             Built for <span class="chip">astraroute</span> notes
                             and blog listing.
+                        </div>
+                    </section>
+
+                    <!-- ✅ New author footer inside article (matches your other blog style) -->
+                    <section class="authorFooter">
+                        <div class="authorInner">
+                            <div class="authorLeft">
+                                <div class="authorTitle">
+                                    Written by Ashish Ranjan
+                                </div>
+                                <div class="authorText">
+                                    Notes, devlogs, and small experiments -
+                                    built for fast reading and practical reuse.
+                                </div>
+                            </div>
+
+                            <div class="authorRight">
+                                <div class="authorCta">
+                                    Visit my website for more blogs and notes
+                                </div>
+
+                                <div class="authorLinks">
+                                    <a
+                                        class="authorLink"
+                                        href="https://ashishranjan.net"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        title="Website"
+                                    >
+                                        Website
+                                    </a>
+
+                                    <a
+                                        class="authorLink"
+                                        href="https://ashishranjan.net/blog"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        title="Blog page"
+                                    >
+                                        Blog
+                                    </a>
+
+                                    <a
+                                        class="authorLink"
+                                        href="https://github.com/a2rp"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        title="GitHub"
+                                    >
+                                        GitHub
+                                    </a>
+
+                                    <a
+                                        class="authorLink"
+                                        href="https://www.linkedin.com/in/aashishranjan"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        title="LinkedIn"
+                                    >
+                                        LinkedIn
+                                    </a>
+
+                                    <a
+                                        class="authorLink"
+                                        href="https://www.facebook.com/theash.ashish/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        title="Facebook"
+                                    >
+                                        Facebook
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="authorBottom">
+                            Built for siteblog repos - add topic "siteblog" and
+                            set GitHub Pages homepage.
                         </div>
                     </section>
                 </article>
