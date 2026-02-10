@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Test Blog - The First Drop</title>
+        <meta
+            name="description"
+            content="A test blog page for AstraRoute site blog listing. Clean layout, readable typography, and a simple structure you can reuse."
+        />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body>
+        <header class="top">
+            <div class="container">
+                <div class="brandRow">
+                    <div class="brandDot" aria-hidden="true"></div>
+                    <div class="brandText">AstraRoute Blog</div>
+                </div>
+
+                <h1 class="title">The First Drop</h1>
+
+                <div class="meta">
+                    <div class="metaItem">
+                        <span class="k">Published</span>
+                        <span class="v">Feb 10, 2026</span>
+                    </div>
+
+                    <div class="metaItem">
+                        <span class="k">Last updated</span>
+                        <span class="v">Feb 10, 2026 13:30 hrs</span>
+                    </div>
+
+                    <div class="metaItem">
+                        <span class="k">Tags</span>
+                        <span class="v">siteblog, devlog, ui, notes</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <article class="article">
+                    <figure class="hero">
+                        <img
+                            src="./main_image.png"
+                            alt="Hero image for the blog"
+                        />
+                        <figcaption>
+                            main_image.png is used by the blog listing cards.
+                        </figcaption>
+                    </figure>
+
+                    <section class="block">
+                        <h2>What is this page</h2>
+                        <p>
+                            This is a small test blog page you can push to a
+                            GitHub repo and publish with GitHub Pages. Your app
+                            will detect the repo using topic
+                            <span class="chip">siteblog</span>, show the card
+                            with <span class="chip">main_image.png</span>, and
+                            open this page inside a modal iframe.
+                        </p>
+                    </section>
+
+                    <section class="block">
+                        <h2>Keep it boring, keep it reliable</h2>
+                        <p>
+                            The goal is not fancy animations. The goal is that
+                            it loads fast, reads well, and renders consistently.
+                            You can use this as a template for every blog post:
+                            same structure, different content.
+                        </p>
+
+                        <div class="callout">
+                            <div class="calloutTitle">Tiny tip</div>
+                            <div class="calloutText">
+                                In GitHub repo settings, set Homepage to your
+                                GitHub Pages URL. That is what the modal loads.
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="block">
+                        <h2>Quick checklist for your repo</h2>
+                        <ul>
+                            <li>
+                                Add topic: <span class="chip">siteblog</span>
+                            </li>
+                            <li>
+                                Put <span class="chip">main_image.png</span> in
+                                repo root
+                            </li>
+                            <li>Enable GitHub Pages (deploy from branch)</li>
+                            <li>Set Homepage to the live URL</li>
+                        </ul>
+                    </section>
+
+                    <section class="block">
+                        <h2>Next steps</h2>
+                        <p>
+                            Replace this text with your real blog content:
+                            project updates, tutorials, breakdowns, and
+                            experiments. Keep headings short and paragraphs
+                            small for readability.
+                        </p>
+
+                        <div class="footerNote">
+                            Built for <span class="chip">astraroute</span> notes
+                            and blog listing.
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </main>
+
+        <footer class="foot">
+            <div class="container">
+                <div class="footRow">
+                    <div class="small">© 2026 AstraRoute</div>
+                    <div class="small">
+                        This is a test blog page for GitHub Pages.
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            // keep it minimal and stable
+            // you can remove this script if you want zero JS
+            document.documentElement.classList.add("ready");
+        </script>
+    </body>
+</html>
