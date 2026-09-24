@@ -3,197 +3,69 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Test Blog - The First Drop</title>
-
-        <!-- favicon -->
-        <link rel="icon" href="/favicon.ico" />
-        
-
-        <meta
-            name="description"
-            content="A test blog page for AstraRoute site blog listing. Clean layout, readable typography, and a simple structure you can reuse."
-        />
+        <meta name="theme-color" content="#050509" />
+        <meta name="description" content="A concise blog post template for siteblog repositories, devlogs, interface notes, and practical experiments." />
+        <meta property="og:title" content="The First Drop | AstraRoute Blog" />
+        <meta property="og:description" content="A readable static blog page template for GitHub Pages." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://a2rp.github.io/siteblog-test-blog/" />
+        <meta property="og:image" content="https://a2rp.github.io/siteblog-test-blog/preview.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" href="./public/favicon.ico" />
         <link rel="stylesheet" href="./style.css" />
+        <title>The First Drop | AstraRoute Blog</title>
     </head>
-
     <body>
         <header class="top">
             <div class="container">
                 <div class="brandRow">
-                    <div class="brandDot" aria-hidden="true"></div>
+                    <a class="brandMark" href="#top" aria-label="AstraRoute blog home"><img src="./public/logo.png" alt="" /></a>
                     <div class="brandText">AstraRoute Blog</div>
-                </div>
-
-                <h1 class="title">The First Drop</h1>
-
-                <div class="meta">
-                    <div class="metaItem">
-                        <span class="k">Published</span>
-                        <span class="v">Feb 10, 2026</span>
-                    </div>
-
-                    <div class="metaItem">
-                        <span class="k">Last updated</span>
-                        <span class="v">Feb 10, 2026 13:30 hrs</span>
-                    </div>
-
-                    <div class="metaItem">
-                        <span class="k">Tags</span>
-                        <span class="v">siteblog, devlog, ui, notes</span>
-                    </div>
+                    <div class="headerLinks"><a href="https://www.ashishranjan.net/blog" target="_blank" rel="noopener noreferrer">Blog home</a></div>
                 </div>
             </div>
         </header>
 
-        <main class="main">
+        <main class="main" id="top">
             <div class="container">
+                <section class="postIntro">
+                    <h1 class="title">The First Drop</h1>
+                    <div class="meta">
+                        <div class="metaItem"><span class="k">Published</span><span class="v">Feb 10, 2026</span></div>
+                        <div class="metaItem"><span class="k">Last updated</span><span class="v">Feb 10, 2026 13:30 hrs</span></div>
+                        <div class="metaItem"><span class="k">Tags</span><span class="v">siteblog, devlog, ui, notes</span></div>
+                    </div>
+                </section>
+
                 <article class="article">
                     <figure class="hero">
-                        <img
-                            src="./main_image.webp"
-                            alt="Hero image for the blog"
-                        />
-                        <figcaption>
-                            main_image.webp is used by the blog listing cards.
-                        </figcaption>
+                        <img src="./main_image.webp" alt="Abstract architectural structure in soft light" />
+                        <figcaption>main_image.webp is used by the blog listing cards.</figcaption>
                     </figure>
-
                     <section class="block">
-                        <h2>What is this page</h2>
-                        <p>
-                            This is a small test blog page you can push to a
-                            GitHub repo and publish with GitHub Pages. Your app
-                            will detect the repo using topic
-                            <span class="chip">siteblog</span>, show the card
-                            with <span class="chip">main_image.webp</span>, and
-                            open this page inside a modal iframe.
-                        </p>
+                        <h2>What is this page?</h2>
+                        <p>This is a small test blog page you can push to a GitHub repo and publish with GitHub Pages. Your app can detect the repo using the <span class="chip">siteblog</span> topic, show the card with <span class="chip">main_image.webp</span>, and open this page inside a modal iframe.</p>
                     </section>
-
                     <section class="block">
                         <h2>Keep it boring, keep it reliable</h2>
-                        <p>
-                            The goal is not fancy animations. The goal is that
-                            it loads fast, reads well, and renders consistently.
-                            You can use this as a template for every blog post:
-                            same structure, different content.
-                        </p>
-
-                        <div class="callout">
-                            <div class="calloutTitle">Tiny tip</div>
-                            <div class="calloutText">
-                                In GitHub repo settings, set Homepage to your
-                                GitHub Pages URL. That is what the modal loads.
-                            </div>
-                        </div>
+                        <p>The goal is not fancy animations. The goal is that it loads fast, reads well, and renders consistently. You can use this as a template for every blog post: same structure, different content.</p>
+                        <div class="callout"><div class="calloutTitle">Tiny tip</div><div class="calloutText">In GitHub repo settings, set Homepage to your GitHub Pages URL. That is what the modal loads.</div></div>
                     </section>
-
                     <section class="block">
                         <h2>Quick checklist for your repo</h2>
-                        <ul>
-                            <li>
-                                Add topic: <span class="chip">siteblog</span>
-                            </li>
-                            <li>
-                                Put <span class="chip">main_image.webp</span> in
-                                repo root
-                            </li>
-                            <li>Enable GitHub Pages (deploy from branch)</li>
-                            <li>Set Homepage to the live URL</li>
-                        </ul>
+                        <ul><li>Add topic: <span class="chip">siteblog</span></li><li>Put <span class="chip">main_image.webp</span> in repo root</li><li>Enable GitHub Pages from the deploy branch</li><li>Set Homepage to the live URL</li></ul>
                     </section>
-
                     <section class="block">
                         <h2>Next steps</h2>
-                        <p>
-                            Replace this text with your real blog content:
-                            project updates, tutorials, breakdowns, and
-                            experiments. Keep headings short and paragraphs
-                            small for readability.
-                        </p>
-
-                        <div class="footerNote">
-                            Built for <span class="chip">astraroute</span> notes
-                            and blog listing.
-                        </div>
+                        <p>Replace this text with your real blog content: project updates, tutorials, breakdowns, and experiments. Keep headings short and paragraphs small for readability.</p>
+                        <div class="footerNote">Built for <span class="chip">siteblog</span> notes and blog listing.</div>
                     </section>
-
-                    <!-- âœ… New author footer inside article (matches your other blog style) -->
                     <section class="authorFooter">
                         <div class="authorInner">
-                            <div class="authorLeft">
-                                <div class="authorTitle">
-                                    Written by Ashish Ranjan
-                                </div>
-                                <div class="authorText">
-                                    Notes, devlogs, and small experiments -
-                                    built for fast reading and practical reuse.
-                                </div>
-                            </div>
-
-                            <div class="authorRight">
-                                <div class="authorCta">
-                                    Visit my website for more blogs and notes
-                                </div>
-
-                                <div class="authorLinks">
-                                    <a
-                                        class="authorLink"
-                                        href="https://ashishranjan.net"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        title="Website"
-                                    >
-                                        Website
-                                    </a>
-
-                                    <a
-                                        class="authorLink"
-                                        href="https://ashishranjan.net/blog"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        title="Blog page"
-                                    >
-                                        Blog
-                                    </a>
-
-                                    <a
-                                        class="authorLink"
-                                        href="https://github.com/a2rp"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        title="GitHub"
-                                    >
-                                        GitHub
-                                    </a>
-
-                                    <a
-                                        class="authorLink"
-                                        href="https://www.linkedin.com/in/aashishranjan"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        title="LinkedIn"
-                                    >
-                                        LinkedIn
-                                    </a>
-
-                                    <a
-                                        class="authorLink"
-                                        href="https://www.facebook.com/theash.ashish/"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        title="Facebook"
-                                    >
-                                        Facebook
-                                    </a>
-                                </div>
-                            </div>
+                            <div class="authorLeft"><div class="authorTitle">Written by Ashish Ranjan</div><div class="authorText">Notes, devlogs, and small experiments built for fast reading and practical reuse.</div></div>
+                            <div class="authorRight"><div class="authorCta">Visit my website for more blogs and notes</div><div class="authorLinks"><a class="authorLink" href="https://www.ashishranjan.net/" target="_blank" rel="noopener noreferrer">Website</a><a class="authorLink" href="https://www.ashishranjan.net/blog" target="_blank" rel="noopener noreferrer">Blog</a><a class="authorLink" href="https://github.com/a2rp" target="_blank" rel="noopener noreferrer">GitHub</a></div></div>
                         </div>
-
-                        <div class="authorBottom">
-                            Built for siteblog repos - add topic "siteblog" and
-                            set GitHub Pages homepage.
-                        </div>
+                        <div class="authorBottom">Add the <span class="chip">siteblog</span> topic and set the GitHub Pages homepage for your post.</div>
                     </section>
                 </article>
             </div>
@@ -202,18 +74,21 @@
         <footer class="foot">
             <div class="container">
                 <div class="footRow">
-                    <div class="small">Â© 2026 AstraRoute</div>
-                    <div class="small">
-                        This is a test blog page for GitHub Pages.
+                    <div class="small">Copyright &copy; <span id="currentYear"></span> <a href="https://www.ashishranjan.net/" target="_blank" rel="noopener noreferrer">Ashish Ranjan</a></div>
+                    <div class="footerLinks" aria-label="Social and support links">
+                        <a href="https://www.ashishranjan.net/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio" title="Portfolio">↗</a><a href="https://github.com/a2rp" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">GH</a><a href="https://codepen.io/ash1198" target="_blank" rel="noopener noreferrer" aria-label="CodePen" title="CodePen">CP</a><a href="https://www.linkedin.com/in/aashishranjan" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">in</a><a href="https://www.facebook.com/theash.ashish/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">f</a><a href="https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">▶</a><a href="https://a2rp-donation-page.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Support" title="Support">♥</a><a href="https://buymeacoffee.com/a2rp" target="_blank" rel="noopener noreferrer" aria-label="Buy Me a Coffee" title="Buy Me a Coffee">☕</a><a href="https://patreon.com/a2rp" target="_blank" rel="noopener noreferrer" aria-label="Patreon" title="Patreon">P</a>
                     </div>
                 </div>
             </div>
         </footer>
 
+        <button class="toTop" type="button" aria-label="Go to top" title="Go to top">↑</button>
         <script>
-            // keep it minimal and stable
-            // you can remove this script if you want zero JS
             document.documentElement.classList.add("ready");
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+            const toTop = document.querySelector(".toTop");
+            window.addEventListener("scroll", () => { toTop.classList.toggle("visible", window.scrollY > 420); }, { passive: true });
+            toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
         </script>
     </body>
 </html>
